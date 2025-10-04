@@ -1,7 +1,9 @@
 import discord
 from discord.ext import commands
+import os 
+TOKEN = os.getenv("TOKEN")
+main.run(TOKEN)
 
-TOKEN = "MTQyMzc3OTY4MTk4NzA2NzkwNA.GJhhQd.n9fPquU-vUlZOq6LZfmbmUTfvdrJoznvKV8W_0"
 
 # Usuário que o bot deve manter o nick
 NICK_TARGET_ID = 765711397371379732  # Substitua pelo ID correto
@@ -68,5 +70,3 @@ bot.run(TOKEN)
 
 
 
-MTQyMzc3OTY4MTk4NzA2NzkwNA.GJhhQd.n9fPquU-vUlZOq6LZfmbmUTfvdrJoznvKV8W_0
-765711397371379732
