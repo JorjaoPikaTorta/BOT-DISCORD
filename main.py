@@ -2,7 +2,7 @@ import discord
 from discord.ext import commands
 import os 
 TOKEN = os.getenv("TOKEN")
-main.run(TOKEN)
+bot.run(TOKEN)
 
 
 # Usuário que o bot deve manter o nick
@@ -64,6 +64,7 @@ async def on_presence_update(before, after):
                             print(f"Erro ao enviar mensagem: {e}")
 
 bot.run(TOKEN)
+
 
 
 
